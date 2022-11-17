@@ -48,7 +48,7 @@ set encoding=utf-8
 
 " Recursive file search with :find command
 set path+=**
-set wildmeny " Display tips while files search by *
+set wildmenu " Display tips while files search by *
 
 " Line numbers
 set number
@@ -84,7 +84,7 @@ set colorcolumn=100 " Show max width mark
 
 " Show hidden chars
 " tab = "u2192\ "(note whitespace at the end) space = "u0387"
-set lcs=eol:$,spase:・,tab→\ ,trail:∙
+set lcs=eol:$,space:・,tab→\ ,trail:∙
 set list " enable hidden scaracters
 
 " Map russian keys
