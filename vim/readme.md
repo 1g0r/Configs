@@ -6,8 +6,8 @@
 
 ## Plugin behind proxy
 
-To enable plug behind proxy one must configure proxy for git
-~\.gitconfig
+Configure proxy for git inside config file `~\.gitconfig`
+
 ```
 [http "http://github.com"]
     proxy = http://domain\\userName:password@server:666
