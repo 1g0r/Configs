@@ -65,6 +65,11 @@ set spelllang=en_US,ru_RU
 set nospell
 hi SpellBad cterm=underline
 
+" UI Language https://writepermission.com/changing-gvim-menu-language.html
+set langmenu=en_US.UTF-8
+lang en
+language mes en
+
 " Show command keys
 set showcmd
 
